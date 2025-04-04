@@ -53,7 +53,6 @@ $studentList = new StudentList($conn);
 <body class="table-body">
     <header class="body-header">
         <h2 class="header">&nbsp;Admin Dashboard - Student List </h2> 
-        <!-- <a class="logout-link" href="admin-logout.php">Logout</a> -->
         <a class="logout-link" href="admin-logout.php" onclick="return confirmLogout()">Logout</a>
         <script>
         function confirmLogout() {
@@ -84,6 +83,7 @@ $studentList = new StudentList($conn);
                 <p>Welcome, Admin</p>
             </div>
             
+            <!-- Additional Display lang sana -->
             <ul>
                 <!-- <li>Registration Form</li>
                 <li>View Grades</li>

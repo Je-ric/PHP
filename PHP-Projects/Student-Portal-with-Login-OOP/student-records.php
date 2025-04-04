@@ -9,7 +9,7 @@ class StudentRecords {
     public function __construct($conn) {
         $this->conn = $conn;
     }
-
+    //list
     public function fetchStudentRecord($student_id) {
         $query = "SELECT students.student_id, students.name, students.age, students.email, students.gpa 
                   FROM students

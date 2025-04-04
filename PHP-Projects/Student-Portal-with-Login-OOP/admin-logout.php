@@ -16,7 +16,7 @@ class AdminLogout {
     }
 }
 
-// Usage
+// Usage 
 $adminLogout = new AdminLogout();
 $adminLogout->logout();
 ?>

@@ -10,7 +10,6 @@ class StudentUpdater {
     }
 
     public function updateStudentRecord() {
-        // session_start();
         $update_error = null; 
     
         if (!isset($_SESSION['admin'])) {
