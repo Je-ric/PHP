@@ -26,7 +26,7 @@ class DatabaseConnector {
 }
 
 // Usage
-$host = "localhost:3307";
+$host = "localhost:3307"; // 
 $username = "root";
 $password = "";
 $database = "studentDB";
